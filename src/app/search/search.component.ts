@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class SearchComponent {
 
-  searchValue: string = "iphone"
+  searchValue: string = ""
   changeSearchValue(eventData: Event) {
     
     //EventBinding
