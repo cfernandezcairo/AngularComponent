@@ -9,7 +9,7 @@
         <div>
             <div class="name-container"><h6>{{ p.name }}</h6></div>
             <div class="detail-container">
-                <div class="details">{{p.available}}</div>
+                <div class="details" [ngStyle]="{color: p.available === 'Available' ? 'Green' : 'Red'}">{{p.available}}</div>
                 <div class="details"><b>Price:</b>${{p.price}}</div>
                 <div class="details"><b>Color:</b>{{p.color}}</div>
             </div>
